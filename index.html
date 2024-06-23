@@ -6,7 +6,80 @@
     <title>Input Types</title>
 </head>
 <body>
-    <label for="first-name">What is your first name?</label>
-    <input type="text" id="first-name" />
+    <h1>HTML Input Types</h1>
+
+    <h3>Challenge 1</h3>
+    <p>
+      Create a search input with a label "What's on your mind?"
+    </p>
+    <div>
+       <label>What's on your mind?</label> 
+       <input type="text" />
+    </div>
+    
+
+    <h3>Challenge 2</h3>
+    <p>
+      Create a form with a date input asking "What is your birth date?", a
+      submit button "Submit" and the form should send the date to /submit
+    </p>
+    <div>
+        <form action="/submit">
+            <label>What is your birth date?</label>
+            <input type="date" />
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+
+    <h3>Challenge 3</h3>
+    <p>
+      Create radio inputs asking "What is your favorite primary color?" with
+      blue, yellow and red as options
+      <div>
+        <label for="colors">What is your favorite primary color?</label>
+      </div>
+      <div>
+        <input type="radio" name="colors" id="blue"/>
+        <label for="blue">Blue</label>
+      </div>
+      <div>
+        <input type="radio" name="colors" id="yellow"/>
+        <label for="yellow">Yellow</label>
+      </div>
+      <div>
+        <input type="radio" name="colors" id="red"/>
+        <label for="red">Red</label>
+      </div>
+    </p>
+
+    <h3>Challenge 4</h3>
+    <p>
+      Create checkbox inputs asking "How do you like to travel?" with plane,
+      bus, train, car, walking as options
+    </p>
+    <div>
+        <label for="transport">How do you like to travel?</label>
+      </div>
+      <div>
+        <input type="checkbox" name="transport" id="plane"/>
+        <label for="plane">Plane</label>
+      </div>
+      <div>
+        <input type="checkbox" name="transport" id="bus"/>
+        <label for="bus">Bus</label>
+      </div>
+      <div>
+        <input type="checkbox" name="transport" id="car"/>
+        <label for="car">Car</label>
+      </div>
+      <div>
+        <input type="checkbox" name="transport" id="walking"/>
+        <label for="walking">Walking</label>
+      </div>
+      <div>
+        <input type="checkbox" name="transport" id="train"/>
+        <label for="train">Train</label>
+      </div>
+    <script></script>
 </body>
 </html>
